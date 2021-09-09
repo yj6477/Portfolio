@@ -4,9 +4,9 @@ import {SidebarContainer, Icon, CloseIcon, SidebarWrapper, SidebarMenu, SidebarL
 
 function Sidebar({isOpen, toggle}) {
     return (
-        <SidebarContainer isOpen={isOpen} onClick={toggle}>
-            <Icon onClick={toggle}>
-                <CloseIcon />
+        <SidebarContainer isOpen={isOpen}>
+            <Icon>
+                <CloseIcon onClick={toggle}/>
             </Icon>
             <SidebarWrapper>
                 <SidebarMenu>
