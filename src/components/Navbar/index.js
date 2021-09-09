@@ -2,15 +2,15 @@ import React from 'react';
 import {FaBars, FaLinkedinIn, FaGithub} from 'react-icons/fa';
 import { Nav, NavbarContainer, NavLogo, MobileIcon, NavMenu, NavItem, NavLinks } from './NavbarElements';
 
-const Navbar = () => {
+const Navbar = ({ toggle }) => {
     return (
         <div>
             <Nav>
                 <NavbarContainer>
-                    <NavLogo to="/portfolio">
+                    <NavLogo to="/">
                         YoungJin Seo
                     </NavLogo>
-                    <MobileIcon>
+                    <MobileIcon onClick={toggle}>
                         <FaBars />
                     </MobileIcon>
                     <NavMenu>
