@@ -7,7 +7,7 @@ const ProjectSection = () => {
         <ProjectContainer id="projects">
             <ProjectH1>Projects</ProjectH1>
             <ProjectWrapper>
-                <ProjectH2>Coming Soon...</ProjectH2>
+                <ProjectH2>Coming Soon</ProjectH2>
             </ProjectWrapper>
         </ProjectContainer>
 
