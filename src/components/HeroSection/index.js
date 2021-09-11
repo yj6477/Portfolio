@@ -16,7 +16,7 @@ const HeroSection = () => {
             <HeroContent>
                 <HeroH1>Hello, my name is YoungJin Seo</HeroH1>
                 <HeroP>
-                    I'm recent graduate software engineerer looking for entry level positions. If you like my portfolio, feel free to contact me.
+                    I'm a recent graduate software engineer looking for an entry-level position. If you like my portfolio, feel free to contact me.
                 </HeroP>
                 <HeroBtnWrapper>
                     <Button to='contact' onMouseEnter={onHover} onMouseLeave={onHover}

@@ -81,7 +81,7 @@ export const NavLinks = styled(LinkS)`
     height: 100%;
     cursor: pointer;
 
-    &:active {
+    &.active {
         border-bottom: 3px solid #20E1ED;
         color: #20E1ED;
         transition: 0.2s ease-in-out;

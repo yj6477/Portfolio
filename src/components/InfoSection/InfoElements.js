@@ -2,14 +2,32 @@ import styled from 'styled-components';
 
 export const AboutContainer = styled.div`
     background: #0c0c0c;
+    padding: 5px 30px;
+    height: 980px;
+    width: 100%;
+    position: relative;
+`;
+
+export const InfoWrapper = styled.div`
+    width: 100%;
+    height: 100%;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    padding: 0 30px;
-    padding-bottom: 30px;
-    height: 100%;
-    position: relative;
+    align-items: center;
     z-index: 1;
+`;
+
+export const InfoIndicator = styled.div`
+    cursor: pointer;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    border: 1px #fff solid;
+
+    &.active{
+        
+        background: #20E1ED;
+    }
 `;
 
 export const AboutH1 = styled.h1`
