@@ -1,8 +1,8 @@
 import styled from 'styled-components';
 
 export const ProjectContainer = styled.div`
-    background: #838383;
-    padding: 5px 30px 100px;
+    background: #292929;
+    padding: 5px 40px;
     height: 980px;
     width: 100%;
     position: relative;

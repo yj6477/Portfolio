@@ -4,10 +4,11 @@ import { ProjectContainer, ProjectWrapper, ProjectH1, ProjectH2 } from './Projec
 
 const ProjectSection = () => {
     return (
-        <ProjectContainer id="projects">
+        <ProjectContainer id='projects'>
             <ProjectH1>Projects</ProjectH1>
             <ProjectWrapper>
                 <ProjectH2>Coming Soon</ProjectH2>
+
             </ProjectWrapper>
         </ProjectContainer>
 
