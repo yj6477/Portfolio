@@ -3,7 +3,7 @@ import styled from 'styled-components';
 export const ContactContainer = styled.div`
     background: #0c0c0c;
     padding: 5px 40px;
-    height: 980px;
+    height: 100%;
     width: 100%;
     position: relative;
 `;  
@@ -83,10 +83,19 @@ export const ContactMessage =styled.textarea`
 `;
 
 export const ColumnNarrow = styled.div`
-    width: 30%; 
-    float: left; 
+    width: 50%; 
+    float: left;
+    padding-top: 10%; 
     padding-right: 3%; 
-    min-height 175px;
+    min-height 980px;
+
+    @media screen and (max-width: 800px){
+        width: 80%;
+    }
+
+    @media screen and (max-width: 480px){
+        width: 80%;
+    }
 `;
 
 export const ColumnWide = styled.div`
