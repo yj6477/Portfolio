@@ -22,6 +22,7 @@ export const InfoIndicator = styled.div`
     color: #fff;
     padding: 10px;
     text-align: center;
+    border-radius: 50%;
     border: 1px #fff solid;
 
     &.active{
@@ -86,18 +87,5 @@ export const BarFill = styled.div`
     padding-top: 10px;
     color: #fff;
     height: 40px;
-`;
-
-export const ColumnNarrow = styled.div`
-    width: 30%; 
-    float: left; 
-    padding-right: 3%; 
-    min-height 175px;
-`;
-
-export const ColumnWide = styled.div`
-    width: 70%; 
-    float: left;
-    min-height: 225px;
 `;
 

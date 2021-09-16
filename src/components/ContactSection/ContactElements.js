@@ -85,9 +85,9 @@ export const ContactMessage =styled.textarea`
 export const ColumnNarrow = styled.div`
     width: 50%; 
     float: left;
-    padding-top: 10%; 
+    padding-top: 100px; 
     padding-right: 3%; 
-    min-height 980px;
+    min-height 900px;
 
     @media screen and (max-width: 800px){
         width: 80%;

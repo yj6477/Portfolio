@@ -1,5 +1,5 @@
 import React from 'react';
-import { AboutContainer, InfoWrapper,InfoIndicator,  ColumnNarrow, ColumnWide, AboutH1,AboutH2, SkillList, Bar, BarFill } from './InfoElements';
+import { AboutContainer, InfoWrapper,InfoIndicator, AboutH1,AboutH2, SkillList, Bar, BarFill } from './InfoElements';
 import 'react-slideshow-image/dist/styles.css';
 import { Slide } from 'react-slideshow-image';
 import { FaGitAlt, FaAws } from 'react-icons/fa';

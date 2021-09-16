@@ -36,6 +36,7 @@ export const ProjectH2 = styled.h2`
     font-size: 34px;
     color: #fff;
     margin-top: 30px;
+    margin-bottom: 30px;
     text-align: left;
 
     @media screen and (max-width: 768px){
@@ -45,4 +46,11 @@ export const ProjectH2 = styled.h2`
     @media screen and (max-width: 480px){
         font-size: 32px;
     }
+`;
+
+export const ProjectImage = styled.img`
+    border-radius: 50%;
+    width: 600px;
+    height: 600px;
+    z-index: 5;
 `;
