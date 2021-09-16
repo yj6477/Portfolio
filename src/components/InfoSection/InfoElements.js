@@ -2,10 +2,19 @@ import styled from 'styled-components';
 
 export const AboutContainer = styled.div`
     background: #0c0c0c;
-    padding: 80px 40px;
-    height: 980px;
+    padding: 5px 30px;
+    padding-bottom: 45px;
+    height: 100%;
     width: 100%;
     position: relative;
+
+    @media screen and (max-width: 768px){
+        padding: 80px 30px;
+    }
+
+    @media screen and (max-width: 480px){
+        padding: 80px 30px;
+    }
 `;
 
 export const InfoWrapper = styled.div`
@@ -23,7 +32,7 @@ export const InfoIndicator = styled.div`
     padding: 10px;
     text-align: center;
     border-radius: 50%;
-    border: 1px #fff solid;
+    border: 1px #222222 solid;
 
     &.active{
         
@@ -34,7 +43,7 @@ export const InfoIndicator = styled.div`
 export const AboutH1 = styled.h1`
     font-size: 48px;
     color: #fff;
-    margin-top: 40px;
+    margin-top: 5px;
     text-align: left;
 
     @media screen and (max-width: 768px){

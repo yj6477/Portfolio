@@ -7,12 +7,13 @@ import { Nav, NavbarContainer, NavLogo, MobileIcon, NavMenu, NavItem, NavLinks }
 const Navbar2 = () => {
     return (
         <>
+        <Nav>
             <NavbarContainer>
-                <NavLogo exact path="/portfolio">
+                <NavLogo to="/portfolio">
                     YoungJin seo
                 </NavLogo>
-            </NavbarContainer>
-            
+            </NavbarContainer>    
+        </Nav>         
         </>
     )
 }

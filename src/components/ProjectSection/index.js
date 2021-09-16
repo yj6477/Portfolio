@@ -6,6 +6,8 @@ import image1 from '../../images/CookingAppIcon.jpg';
 import image2 from '../../images/typing.jpg';
 import image3 from '../../images/ReactIcon.jpg';
 import image4 from '../../images/AlgorithmIcon.jpg';
+import { Link } from "react-router-dom";
+
 
 
 
@@ -30,7 +32,8 @@ const ProjectSection = () => {
                 <ProjectWrapper>
                     {/* Cooking Social Media App */}
                     <ProjectH2>CookFlex App</ProjectH2>
-                    <ProjectImage src={image1}></ProjectImage>
+                    <Link to="/portfolio/project1"><ProjectImage src={image1}></ProjectImage></Link>
+                    
 
                 </ProjectWrapper>
                 <ProjectWrapper>
