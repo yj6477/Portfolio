@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.da5f4396.chunk.css",
-    "main.js": "/portfolio/static/js/main.218aa5f6.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.218aa5f6.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.e0864b00.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.e0864b00.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.bcd5af5a.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.bcd5af5a.js.map",
     "static/css/2.b57b7cfd.chunk.css": "/portfolio/static/css/2.b57b7cfd.chunk.css",
-    "static/js/2.e8786097.chunk.js": "/portfolio/static/js/2.e8786097.chunk.js",
-    "static/js/2.e8786097.chunk.js.map": "/portfolio/static/js/2.e8786097.chunk.js.map",
+    "static/js/2.1a810362.chunk.js": "/portfolio/static/js/2.1a810362.chunk.js",
+    "static/js/2.1a810362.chunk.js.map": "/portfolio/static/js/2.1a810362.chunk.js.map",
     "index.html": "/portfolio/index.html",
     "static/css/2.b57b7cfd.chunk.css.map": "/portfolio/static/css/2.b57b7cfd.chunk.css.map",
     "static/css/main.da5f4396.chunk.css.map": "/portfolio/static/css/main.da5f4396.chunk.css.map",
-    "static/js/2.e8786097.chunk.js.LICENSE.txt": "/portfolio/static/js/2.e8786097.chunk.js.LICENSE.txt",
+    "static/js/2.1a810362.chunk.js.LICENSE.txt": "/portfolio/static/js/2.1a810362.chunk.js.LICENSE.txt",
     "static/media/AlgorithmIcon.5c669d7e.jpg": "/portfolio/static/media/AlgorithmIcon.5c669d7e.jpg",
     "static/media/CookingAppIcon.2890915e.jpg": "/portfolio/static/media/CookingAppIcon.2890915e.jpg",
     "static/media/ReactIcon.28ac93fc.jpg": "/portfolio/static/media/ReactIcon.28ac93fc.jpg",
@@ -21,8 +21,8 @@
   "entrypoints": [
     "static/js/runtime-main.bcd5af5a.js",
     "static/css/2.b57b7cfd.chunk.css",
-    "static/js/2.e8786097.chunk.js",
+    "static/js/2.1a810362.chunk.js",
     "static/css/main.da5f4396.chunk.css",
-    "static/js/main.218aa5f6.chunk.js"
+    "static/js/main.e0864b00.chunk.js"
   ]
 }
