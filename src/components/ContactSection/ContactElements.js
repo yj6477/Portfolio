@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const ContactContainer = styled.div`
     background: #0c0c0c;
-    padding: 5px 40px;
+    padding: 80px 40px;
     height: 100%;
     width: 100%;
     position: relative;

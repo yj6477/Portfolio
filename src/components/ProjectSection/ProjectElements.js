@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const ProjectContainer = styled.div`
     background: #292929;
-    padding: 5px 40px;
+    padding: 80px 40px;
     height: 980px;
     width: 100%;
     position: relative;
@@ -53,4 +53,14 @@ export const ProjectImage = styled.img`
     width: 600px;
     height: 600px;
     z-index: 5;
+
+    @media screen and (max-width: 768px){
+        width: 300px;
+        height: 300px;
+    }
+
+    @media screen and (max-width: 480px){
+        width: 300px;
+        height: 300px;
+    }
 `;
