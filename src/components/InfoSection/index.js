@@ -12,7 +12,9 @@ const AboutSection = () => {
     const settings = {
         indicators: true,
         autoplay: false,
-        indicators: i => (<InfoIndicator></InfoIndicator>)
+        indicators: i => (<InfoIndicator></InfoIndicator>),
+        transitionDuration: 300
+
     };
     
       return (

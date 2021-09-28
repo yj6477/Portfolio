@@ -1,21 +1,22 @@
 import React, {useState} from 'react';
 import Navbar from '../components/Navbar/index2';
-import CookingAppSection from '../components/CookingAppSection';
-import Sidebar from '../components/Sidebar/index2';
+import Sidebar from '../components/Sidebar';
+import TypingTestSection from '../components/TypingTestSection';
 
-const Project1Page = () => {
+const Project2Page = () => {
     const [isOpen, setIsOpen] = useState(false);
     const toggle = () => {
         setIsOpen(!isOpen)
     }
-    const sourceCode = "https://github.com/Dund0/FoodApp";
+
+    const sourceCode = "https://github.com/yj6477/TypingTest";
     return (
         <>
             <Sidebar isOpen={isOpen} toggle={toggle} sourcecode={sourceCode}/>
             <Navbar toggle={toggle} sourcecode={sourceCode}/>
-            <CookingAppSection/>
+            <TypingTestSection/>
         </>
     );
 };
 
-export default Project1Page
+export default Project2Page

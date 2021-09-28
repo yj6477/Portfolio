@@ -4,7 +4,8 @@ import { Nav, NavbarContainer, NavLogo, MobileIcon, NavMenu, NavItem, NavLinks }
 
 
 
-const Navbar2 = () => {
+
+const Navbar2 = ({toggle, sourcecode}) => {
     return (
         <>
         <Nav>
@@ -12,6 +13,14 @@ const Navbar2 = () => {
                 <NavLogo to="/portfolio">
                     YoungJin seo
                 </NavLogo>
+                <MobileIcon onClick={toggle}>
+                    <FaBars />
+                </MobileIcon>
+                <NavMenu>
+                    <NavItem>
+                        <NavLinks as="a" href={sourcecode} target="_blank">Source Code <FaGithub/></NavLinks>
+                    </NavItem>
+                </NavMenu>
             </NavbarContainer>    
         </Nav>         
         </>

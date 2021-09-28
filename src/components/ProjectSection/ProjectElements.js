@@ -1,4 +1,6 @@
 import styled from 'styled-components';
+import {Link as LinkS} from 'react-scroll';
+import {Link as LinkR} from 'react-router-dom';
 
 export const ProjectContainer = styled.div`
     background: #292929;
@@ -63,4 +65,23 @@ export const ProjectImage = styled.img`
         width: 300px;
         height: 300px;
     }
+`;
+
+export const ProjectLinks = styled(LinkS)`
+    &:hover{
+        border-radius: 50%;
+        border: 3px solid #20E1ED;
+        color #0E1ED;
+        transition 0.2s ease-in-out;
+    }
+`;
+
+export const ProjectPage =styled(LinkR)`
+    &:hover{
+        border-radius: 50%;
+        border: 3px solid #20E1ED;
+        color #0E1ED;
+        transition 0.2s ease-in-out;
+    }  
+
 `;
