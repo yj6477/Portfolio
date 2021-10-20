@@ -39,7 +39,7 @@ const ProjectSection = () => {
                 <ProjectWrapper>
                     {/* Typing test */}
                     <ProjectH2>Typing Test</ProjectH2>
-                    <ProjectPage to="/portfolio/project2"><ProjectImage src={image2}></ProjectImage></ProjectPage>   
+                    <ProjectPage  as ="a" href="https://yj6477.github.io/TypingTest/"><ProjectImage src={image2}></ProjectImage></ProjectPage>   
 
                 </ProjectWrapper>
                 <ProjectWrapper>
